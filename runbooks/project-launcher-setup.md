@@ -4,6 +4,16 @@ A fuzzy-search project switcher that opens any project in VSCode with one keystr
 
 ---
 
+## The problem this solves
+
+If you work on many projects and switch between them daily, you will eventually hit a wall: you can't remember where everything lives, you forget folder names, and you waste time navigating file explorers or recalling bash commands just to open something you were working on yesterday.
+
+This gets worse the more projects you have. File explorers show you a tree you have to navigate. VSCode's recent files list gets long and hard to scan. Bash commands like `find` and `ls` are powerful but only if you remember them.
+
+The `p` command removes the memory requirement entirely. Type `p`, type any fragment of the name you vaguely remember, and VSCode opens it. You don't need to remember the full name, the exact path, or any command beyond a single letter.
+
+---
+
 ## What this does
 
 Type `p` in any terminal → fuzzy-search all subfolders in your projects directory → hit Enter → VSCode opens that project.

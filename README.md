@@ -4,6 +4,14 @@ Personal shell configuration, aliases, and runbooks. Clone this on any new machi
 
 ---
 
+## The problem this solves
+
+When you work on many projects and switch between them daily, memory becomes the bottleneck. You forget folder names, forget paths, forget the bash commands to find things. File explorers show you a tree you have to navigate. VSCode's recent list gets long and hard to scan.
+
+This repo collects tools that remove the memory requirement. Single-letter commands, fuzzy search, zero configuration after setup. The goal: spend zero mental energy getting to your work so you can spend it on the work itself.
+
+---
+
 ## What's included
 
 - `bashrc/` — shell functions and aliases
